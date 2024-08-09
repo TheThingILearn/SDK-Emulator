@@ -19,7 +19,7 @@ if [[ -n "$name" ]] then
 done
 
 #getting the api level you can check here https://apilevels.com/
-echo "What API level of Android do you want to install? Levels example:(21-35)"
+echo "What API level of Android do you want to install? Levels example:(21-35)(to 27 there is only x86)"
 is_valid_api_level() {
   [[ $21 =~ ^[0-9]+$ ]] && [ "$21" -ge 1 ] && [ "$21" -le 35 ]
 }
@@ -47,50 +47,81 @@ case $yn in
  esac
 done
 
-#you want the defult or with google api gmail,goole,
-
-# Navigate to the Downloads directory
+create_sdkmanager() {
+echo "creating android_sdk"
 cd ~/Downloads
 echo "Unziping the command line tools"
 unzip commandlinetools-linux-11076708_latest
-# Navigate back to the home directory
 cd ~
 echo "Creating the android_sdk directory"
 mkdir -p android_sdk
 mv ~/Downloads/cmdline-tools ~/android_sdk
 cd ~/android_sdk/cmdline-tools
-# Create the latest directory
 mkdir latest
-# Move necessary files to the latest directory
 mv lib bin NOTICE.txt source.properties latest
+}
+
+if [ -d "$HOME/android_sdk" ]; then
+   echo "Already have android_sdk"
+else
+   create_sdkmanager
+fi
+
+
 cd ~/android_sdk/cmdline-tools/latest/bin
 
 echo "install platform-tools"
-yes | ./sdkmanager platform-tools
+  yes | ./sdkmanager platform-tools
 
 echo "install emulator"
-./sdkmanager emulator
+  ./sdkmanager emulator
 
 echo "Install Android platform $api"
-./sdkmanager "platforms;android-$api"
+  ./sdkmanager "platforms;android-$api"
 
-case $yn in
-[Yy] ) echo "Install system image for Android platform with Playstore $api"
-./sdkmanager "system-images;android-$api;google_apis;x86_64";;
+if [ "$api" = "27" ]; then
+ case $yn in
+    [Yy] ) echo "Install system image for Android $api platform with PlayStore"
+            ./sdkmanager "system-images;android-27;google_apis_playstore;x86";;
 
-[Nn] ) echo "Install system image for Android platform $api"
-./sdkmanager "system-images;android-$api;google_apis;x86_64";;
-esac
+    [Nn] ) echo "Install system image for Android $api platform"
+            ./sdkmanager "system-images;android-27;google_apis;x86";;
+   esac
+ else
+   case $yn in
+    [Yy] ) echo "Install system image for Android platform with Playstore $api"
+            ./sdkmanager "system-images;android-$api;google_apis_playstore;x86_64";;
+
+    [Nn] ) echo "Install system image for Android platform $api"
+            ./sdkmanager "system-images;android-$api;google_apis;x86_64";;
+   esac
+ fi
 
 echo "Install build-tools version $api.0.0"
 ./sdkmanager "build-tools;$api.0.0"
 
-case $yn in
-[Yy] ) echo "creating avd name $name with Playstore"
-    ./avdmanager create avd --name $name --package "system-images;android-$api;google_apis;x86_64" --device "pixel_3a";;
-[Nn] ) echo "creating avd name $name"
-    ./avdmanager create avd --name $name --package "system-images;android-$api;google_apis;x86_64" --device "pixel_3a";;
-esac
+if [ "$api" = "27" ]; then
+   case $yn in
+    [Yy] ) echo "creating avd name $name"
+      ./avdmanager create avd --name "$name-PlayStore" --package "system-images;android-27;google_apis_playstore;x86" --device "pixel_3a";;
 
-cd ~/Desktop/androidemulator/
-echo "$name" >> emulators_name.txt
+    [Nn] ) echo "creating avd name $name"
+      ./avdmanager create avd --name $name --package "system-images;android-27;google_apis;x86" --device "pixel_3a";;
+   esac
+else
+  case $yn in
+    [Yy] ) echo "creating avd name $name with Playstore"
+      ./avdmanager create avd --name "$name-PlayStore" --package "system-images;android-$api;google_apis_playstore;x86_64" --device "pixel_3a";;
+
+    [Nn] ) echo "creating avd name $name"
+      ./avdmanager create avd --name $name --package "system-images;android-$api;google_apis;x86_64" --device "pixel_3a";;
+  esac
+fi
+
+cd ~/bin/emulator/
+if [[ "$yn" = "y" || "$yn" = "Y" ]]; then
+   echo "$name-PlayStore" >> emulators_name.txt
+  else
+   echo "$name" >> emulators_name.txt
+fi
+echo "to run the emulator type ./run.sh"
