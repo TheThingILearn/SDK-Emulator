@@ -13,7 +13,7 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 - openjdk-17 - (search for it in your destro repositories) and download it
 
 ## Installing 
-clone the project and unzip it to wherever you want the script to be(look in the end for suggsegtion)
+clone the project and unzip it to wherever you want the script to be (look in the end for suggsegtion)
 ```
 git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
