@@ -10,7 +10,7 @@ after you go over all the steps in the guide you will have up and running androi
 and scroll down till you get to the section called "Command line tools only".
 download the sdk tools packeage for linux. 🚫🚫don't unzip it the script will do that🚫🚫
 
-- openjdk-17 (search in your destro app manager)
+- openjdk-17 (search for it in your destro app manager) and download that
 
 ## copy the resporetry  
 
