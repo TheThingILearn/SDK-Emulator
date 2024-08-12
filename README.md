@@ -8,7 +8,7 @@ after you go over all the steps in the guide you will have up and running androi
 ### Prerequisites
 - the commnad line tools: enter that link https://developer.android.com/studio.
 and scroll down till you get to the section called "Command line tools only".
-download the sdk tools platform for linux and put it inside your Download folder
+download the sdk tools packeage for linux. ##dont unzip it the script do that##
 
 - openjdk-17 (search in your destro app manager)
 
