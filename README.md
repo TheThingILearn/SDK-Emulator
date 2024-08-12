@@ -12,7 +12,7 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 
 - openjdk-17 (search for it in your destro app manager) and download it
 
-## copy the resporetry  
+## Installing 
 
 ### enviormant veribal (for all users put it in the .bashrc file)
 ```
