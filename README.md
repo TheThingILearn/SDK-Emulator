@@ -33,3 +33,4 @@ source .bashrc
 - make sure the zipped file of the commandline-tools is in the Downloads folder in your home folder
 - make sure you ran the `source .bashrc` command
 - make sure you unzipped that cloned project and that you can easly excces the script files
+- make sure when you ran `java --version` the version is start with 17
