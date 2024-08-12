@@ -6,7 +6,7 @@ your computer and to install and run android emulators.
 after you go over all the steps in the guide you will have up and running android emulator.
 
 ### Prerequisites
-- the commnad line tools: enter that link https://developer.android.com/studio.
+- the commnad line tools: go to that link https://developer.android.com/studio.
 and scroll down till you get to the section called "Command line tools only".
 download the sdk tools packeage for linux. 🚫🚫don't unzip it the script will do that🚫🚫
 
