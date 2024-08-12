@@ -29,3 +29,7 @@ After you saved the file source the file
 ```
 source .bashrc
 ```
+### last steps
+- make sure the zipped file of the commandline-tools is in the Downloads folder in your home folder
+- make sure you ran the `source .bashrc` command
+- make sure you unzipped that cloned project and the you can easly excces the script files 
