@@ -9,7 +9,6 @@ your computer and to install and run android emulators.
 ### 2.enviormant veribal (for all users put it in the .bashrc file)
 ```
 export ANDROID_USER_HOME=$HOME/.android
- 
 export ANDROID_HOME=$HOME/.android
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
-
+```
