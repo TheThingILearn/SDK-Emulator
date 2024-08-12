@@ -13,9 +13,9 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 - openjdk-17 (search for it in your destro repositories) and download it
 
 ## Installing 
-'''
+```
 git clonehttps://github.com/TheThingILearn/SDK-Emulator
-'''
+```
 ### enviormant veribal (for all users put it in the .bashrc file)
 ```
 export ANDROID_USER_HOME=$HOME/.android
