@@ -1,4 +1,4 @@
-# sdkamulator
+# SDK-Emulator
 script for the sdk manager for linux that make it easier to setup sdk manger on 
 your computer and to install and run android emulators.
 
