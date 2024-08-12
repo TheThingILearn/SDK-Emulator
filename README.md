@@ -1,6 +1,9 @@
 # sdkamulator
-a script for the sdk manager for linux that make it easier to setup sdk manger on 
+script for the sdk manager for linux that make it easier to setup sdk manger on 
 your computer and to install and run android emulators.
+
+## Getting Started
+after you go over all the steps in the guide you will have up and running android emulator.
 
 ### Prerequisites
 - the commnad line tools: https://developer.android.com/studio
