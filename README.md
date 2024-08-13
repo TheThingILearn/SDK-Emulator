@@ -12,7 +12,7 @@ Google play store installed on the device.
 
 - commnad line tools - go to that link https://developer.android.com/studio.
 and scroll down till you get to the section called "Command line tools only".
-download the sdk tools packeage for linux.  🚫🚫don't unzip the command line tools the script will do that🚫🚫
+download the sdk tools packeage for linux. 🚫🚫don't unzip the command line tools the script will do that🚫🚫
 
 - openjdk-17 - search for it in your destro repositories and download it.
 
