@@ -3,7 +3,9 @@ script for the sdk manager for linux that make it easier to setup sdk manger on
 your computer and to install and run android emulators.
 
 ## Getting Started
-after you go over all the steps in the guide you will have up and running android emulator.
+After you went over all the steps you can create and define your emulator. for example the name, the api-level of the
+emulator if you want the defult device or with google apis(gmail, chrome, maps) and if you want 
+Google play store installed on the device.
 
 ### Prerequisites
 #### before we start you will need to download the command line tools and openjdk 17
