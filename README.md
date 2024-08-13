@@ -19,7 +19,7 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 ## Installing 
 1. clone the project and unzip it to wherever you want the script to be (look in the end for recommendation)
 ```
-cd ~/Downloads
+cd ~
 git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
 ⚠️if you download the source code manually and not with the command line change the name of the unzip file to `SDK-Emulator`⚠️
