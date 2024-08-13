@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ORIGINAL_DIR="$(pwd)"
+
 export ANDROID_USER_HOME=$HOME/.android
 export ANDROID_HOME=$HOME/android_sdk
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
@@ -175,7 +177,7 @@ case $defult in
    fi
 esac
 
-cd ~/SDK-Emulator/
+cd $ORIGINAL_DIR
 case $defult in
 [Dd] ) echo "$name-Defult" >> emulators_name.txt;;
 
