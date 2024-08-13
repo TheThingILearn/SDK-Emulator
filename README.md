@@ -24,7 +24,7 @@ git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
 ⚠️if you download the source code manually and not with the command line change the name of the unzip file to `SDK-Emulator` and put the file in the home Directory⚠️
 
-2. make the script executable
+2. make the script executable. go to the file and open it in the terminal and run the command below
 ```
 chmod +x cemu
 chmod +x remu
