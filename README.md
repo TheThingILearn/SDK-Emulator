@@ -16,7 +16,7 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip the command line 
 - openjdk-17 - search for it in your destro repositories and download it.
 
 ## Installing 
-1. clone the project and unzip it to our home Directory. (look in the end for recommendation).
+1. clone the project and unzip it to your home Directory. (look in the end for recommendation).
 ```
 cd ~
 git clone https://github.com/TheThingILearn/SDK-Emulator
