@@ -53,5 +53,9 @@ source .bashrc
 2. in the bin folder put the script folder (SDK-Emulator)
 3. now open your .bashrc file and add thet
 ```
-PATH="$HOME/bin/emulator:$PATH"
+PATH="$HOME/bin/SDK-Emulator:$PATH"
 ```
+4. and last do `source .bashrc` in terminal
+
+not to create new emulator open new terminal and do `cemu` with out the `./`
+and to run the emulator do `rcemu`
