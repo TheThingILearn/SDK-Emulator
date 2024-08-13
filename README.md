@@ -22,14 +22,21 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 cd ~/Downloads
 git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
-2. set up your enviormant veribal copy and paste it to the end of your .bashrc file. the file should be a hidden in the home Directory so for show the file 
+
+2. make the script executable
+```
+chmod +x cemu
+chmod +x remu
+```
+
+4. set up your enviormant veribal copy and paste it to the end of your .bashrc file. the file should be a hidden in the home Directory so for show the file 
 do `ctrl+h` and you should now see the file
 ```
 export ANDROID_USER_HOME=$HOME/.android
 export ANDROID_HOME=$HOME/.android
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
 ```
-3. After you saved the file. source the file with the fllowing command in a terminal
+4. After you saved the file. source the file with the fllowing command in a terminal
 ```
 source .bashrc
 ```
