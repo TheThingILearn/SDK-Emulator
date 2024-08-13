@@ -48,3 +48,4 @@ source .bashrc
 7. and that is you have emualtor up and runing
 
 ## recommendation
+### how to run the emulator from every where in your computer
