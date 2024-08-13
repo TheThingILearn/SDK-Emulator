@@ -20,7 +20,7 @@ clone the project and unzip it to wherever you want the script to be (look in th
 git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
 ### enviormant veribal
-set up your enviormant veribal copy and paste in the .bashrc it should be a hidden file in the home home directory 
+set up your enviormant veribal copy and paste it in the .bashrc file it should be a hidden file in the home directory 
 do `ctrl+h` to show hidden files
 ```
 export ANDROID_USER_HOME=$HOME/.android
