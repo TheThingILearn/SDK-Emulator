@@ -28,7 +28,7 @@ export ANDROID_USER_HOME=$HOME/.android
 export ANDROID_HOME=$HOME/.android
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
 ```
-3. After you saved the file do that command in a terminal
+3. After you saved the file. source the file with the fllowing command in a terminal
 ```
 source .bashrc
 ```
