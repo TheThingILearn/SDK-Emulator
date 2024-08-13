@@ -1,6 +1,6 @@
 # SDK-Emulator
 script for the sdk manager for linux that make it easier to setup sdk manger on 
-your computer and to install and run android emulators.
+your computer and to run android emulators.
 
 ## Getting Started
 After you went over all the steps you can create and define your emulator. for example the name, the api-level of the
@@ -21,7 +21,7 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 ```
 git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
-2. set up your enviormant veribal copy and paste it to the end of your .bashrc file. the file should be a hidden so for show the file 
+2. set up your enviormant veribal copy and paste it to the end of your .bashrc file. the file should be a hidden in the home Directory so for show the file 
 do `ctrl+h` and you should now see the file
 ```
 export ANDROID_USER_HOME=$HOME/.android
@@ -33,7 +33,7 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-
 source .bashrc
 ```
 ### last steps
-- make sure the zipped file of the commandline-tools is in the Downloads folder in your home folder
+- make sure the zipped file of the commandline-tools is in the Downloads folder in your home Directory
 - make sure you ran the `source .bashrc` command
 - make sure you unzipped that cloned project and that you can easly excces the script files
 - make sure when you ran `java --version` the version is start with 17
@@ -48,4 +48,10 @@ source .bashrc
 7. and that is you have emualtor up and runing
 
 ## recommendation
-### how to run the emulator from every where in your computer
+### run the emulator from everywhere
+1. go to your home Directory and open the bin folder (if you dont have create one)
+2. in the bin folder put the script folder (SDK-Emulator)
+3. now open your .bashrc file and add thet
+```
+PATH="$HOME/bin/emulator:$PATH"
+```
