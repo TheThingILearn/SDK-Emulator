@@ -21,7 +21,6 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 ```
 git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
-### enviormant veribal
 2. set up your enviormant veribal copy and paste it to the end of your .bashrc file. the file should be a hidden so for show the file 
 do `ctrl+h` and you should now see the file
 ```
