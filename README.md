@@ -38,7 +38,7 @@ source .bashrc
 - make sure when you ran `java --version` the version is start with 17
 
 ## How to run the emulator?
-1. go to the SDK-Emulator file (he should be in your home folder)
+1. go to the SDK-Emulator file
 2. right click on the file and click `open in terminal`
 3. in the terminal wright `./cemu` to create new emulator
 4. read the steps and create your new emulator
