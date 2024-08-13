@@ -36,3 +36,5 @@ source .bashrc
 - make sure you ran the `source .bashrc` command
 - make sure you unzipped that cloned project and that you can easly excces the script files
 - make sure when you ran `java --version` the version is start with 17
+
+## How to run the emulator?
