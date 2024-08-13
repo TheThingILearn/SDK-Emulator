@@ -15,19 +15,19 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip it the script wil
 - openjdk-17 - search for it in your destro repositories and download it
 
 ## Installing 
-clone the project and unzip it to wherever you want the script to be (look in the end for suggsegtion)
+1. clone the project and unzip it to wherever you want the script to be (look in the end for suggsegtion)
 ```
 git clone https://github.com/TheThingILearn/SDK-Emulator
 ```
 ### enviormant veribal
-set up your enviormant veribal copy and paste it to the end of your .bashrc file. the file should be a hidden so for show the file 
+2. set up your enviormant veribal copy and paste it to the end of your .bashrc file. the file should be a hidden so for show the file 
 do `ctrl+h` and you should now see the file
 ```
 export ANDROID_USER_HOME=$HOME/.android
 export ANDROID_HOME=$HOME/.android
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
 ```
-After you saved the file source the file
+3. After you saved the file source the file
 ```
 source .bashrc
 ```
