@@ -83,11 +83,21 @@ while true; do
   fi
 done
 
+unzip_cmd() {
+file=$(ls commandlinetools-linux*.zip 2>/dev/null | head -n 1)
+if [[ -n "$file" ]]; then
+
+    unzip "$file"
+else
+    echo "No file starting with 'commandlinetools-linux' found."
+fi
+}
+
 create_sdkmanager() {
 echo "creating android_sdk"
 cd ~/Downloads
 echo "Unziping the command line tools"
-unzip commandlinetools-linux-11076708_latest
+unzip_cmd
 cd ~
 echo "Creating the android_sdk directory"
 mkdir -p android_sdk
