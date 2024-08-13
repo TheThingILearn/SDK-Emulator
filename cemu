@@ -175,7 +175,7 @@ case $defult in
    fi
 esac
 
-cd ~/bin/emulator/
+cd ~/SDK-Emulator/
 case $defult in
 [Dd] ) echo "$name-Defult" >> emulators_name.txt;;
 
