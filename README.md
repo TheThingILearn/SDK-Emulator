@@ -41,9 +41,9 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-
 source .bashrc
 ```
 ### last steps
-- make sure the zipped file of the commandline-tools is in the Downloads folder in your home Directory.
+- make sure the zipped file of the commandline-tools is in the Downloads folder in your home Directory.(`~/Downoalds`)
 - make sure you ran the `source .bashrc` command.
-- make sure you unzipped that cloned project and in the home Directory.
+- make sure you unzipped that cloned project and put it in the home Directory.(`~/SDK-Emulator`)
 - make sure when you ran `java --version` the version is start with 17.
 
 ## How to run the emulator?
