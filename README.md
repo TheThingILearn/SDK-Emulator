@@ -64,7 +64,7 @@ source .bashrc
 6. chose the name of the emulator you created.
 7. and that it you have emualtor up and runing.
 
-## recommendation
+## recommendation and tips
 ### run the emulator from everywhere
 1. go to your home Directory and open the bin folder (if you dont have create one).
 2. in the bin folder put the script folder (SDK-Emulator).
