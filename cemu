@@ -187,4 +187,4 @@ case $defult in
    echo "$name" >> emulators_name.txt
  fi
 esac
-echo "to run the emulator type ./run.sh"
+echo "to run the emulator type ./remu"
