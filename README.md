@@ -7,7 +7,7 @@ Google play store installed on the device.
 
 
 ### Prerequisites
-- enable virtualization - search in the intarnet how to ebale virtualization in the bios on your mother board.
+- enable virtualization - search in the intarnet how to ebale virtualization in the bios of your mother board.
   
 - commnad line tools - go to that link https://developer.android.com/studio.
 and scroll down till you get to the section called "Command line tools only".
