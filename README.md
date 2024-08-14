@@ -78,6 +78,11 @@ create new emulator open new terminal and do `cemu` with out the `./`
 and to run the emulator do `rcemu`.
 
 ### config flutter to the new sdk
+if you followed the guides here you should just do the code below and the flutter doctor error will disspaer ()
 ```
 flutter config --android-sdk ~/android_sdk
+```
+to accept android licenses do the code below and accect it
+```
+flutter doctor --android-licenses
 ```
