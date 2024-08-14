@@ -1,11 +1,18 @@
 # SDK-Emulator
-After you went over all the steps you can create and define your emulator. for example the name, the api-level of the
-emulator if you want the defult device or with google apis(gmail, chrome, maps) and if you want 
-Google play store installed on the device.
+the sdk command line tools its great tool for creating android emulators. but he can be a bit annoying to use 
+asspechely if all you want is just create simplae android emulator. that why i created that simple script that
+make that procces alot easier.
 
+#### what that script can do?
+- name the amulator
+- chose api-level
+- decide if you want the defult android or with google api(gmail, chrome, maps...)
+- chose if you want play store installed
+
+and of course i will try to add more features with out making it to overwhelmed
+so let me now by ⭐⭐star the project⭐⭐
+  
 ## Getting Started
-
-
 ### Prerequisites
 - enable virtualization - search in the intarnet how to ebale virtualization in the bios of your mother board.
   
