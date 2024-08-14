@@ -76,3 +76,8 @@ PATH="$HOME/bin/SDK-Emulator:$PATH"
 
 create new emulator open new terminal and do `cemu` with out the `./`
 and to run the emulator do `rcemu`.
+
+### config flutter to the new sdk
+```
+flutter config --android-sdk ~/android_sdk
+```
