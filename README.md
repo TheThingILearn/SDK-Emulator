@@ -25,7 +25,7 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip the command line 
   ```
 
 ## Installing 
-1. clone the project and unzip it to your home Directory. [look in the end for] (docs/recommendation .
+1. clone the project and unzip it to your home Directory. [look in the end for] (docs/tips.md)
 ```
 cd ~
 git clone https://github.com/TheThingILearn/SDK-Emulator
@@ -64,7 +64,7 @@ source .bashrc
 6. chose the name of the emulator you created.
 7. and that it you have emualtor up and runing.
 
-## recommendation and tips
+## tips
 ### run the emulator from everywhere
 1. go to your home Directory and open the bin folder (if you dont have create one).
 2. in the bin folder put the script folder (SDK-Emulator).
