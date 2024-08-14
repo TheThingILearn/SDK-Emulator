@@ -19,7 +19,7 @@ download the sdk tools packeage for linux. 🚫🚫don't unzip the command line 
   ```
   sudo zypper install java-17-openjdk
   ```
-  Debian/ubuntu
+  Debian/ubuntu(not tested)
   ```
   sudo apt install default-jdk
   ```
