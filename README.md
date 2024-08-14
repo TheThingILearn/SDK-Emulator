@@ -5,7 +5,7 @@ make that procces alot easier.
 
 #### what that script can do?
 - name the amulator
-- chose api-level
+- pick api-level
 - decide if you want the defult android or with google api(gmail, chrome, maps...)
 - chose if you want play store installed
 
