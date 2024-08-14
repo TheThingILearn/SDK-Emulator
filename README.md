@@ -53,7 +53,7 @@ source .bashrc
 - make sure the zipped file of the commandline-tools is in the Downloads folder in your home Directory.(`~/Downoalds`)
 - make sure you ran the `source .bashrc` command.
 - make sure you unzipped that cloned project and put it in the home Directory.(`~/SDK-Emulator`)
-- make sure when you ran `java --version` the version is start with 17.
+- make sure when you ran `java --version` the version is start with 17 or later.
 
 ## How to run the emulator?
 1. go to the SDK-Emulator file.
