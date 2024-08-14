@@ -7,13 +7,13 @@ Google play store installed on the device.
 
 
 ### Prerequisites
-- enable virtualization: 
+- enable virtualization - search in the intarnet how to ebale virtualization in the bios on your mother board.
   
-- commnad line tools: go to that link https://developer.android.com/studio.
+- commnad line tools - go to that link https://developer.android.com/studio.
 and scroll down till you get to the section called "Command line tools only".
 download the sdk tools packeage for linux. 🚫🚫don't unzip the command line tools the script will do that🚫🚫
 
-- openjdk-17: search for it in your destro package manager and download it.
+- openjdk-17 - search for it in your destro package manager and download it.
 
 ## Installing 
 1. clone the project and unzip it to your home Directory. (look in the end for recommendation).
