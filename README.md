@@ -62,7 +62,7 @@ source .bashrc
 4. read the steps and create your new emulator.
 5. after you craeted emulator in the same terminal wright `./remu`.
 6. chose the name of the emulator you created.
-7. and that is you have emualtor up and runing.
+7. and that it you have emualtor up and runing.
 
 ## recommendation
 ### run the emulator from everywhere
