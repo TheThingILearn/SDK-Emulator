@@ -74,5 +74,5 @@ PATH="$HOME/bin/SDK-Emulator:$PATH"
 ```
 4. and last do `source .bashrc` in terminal.
 
-not to create new emulator open new terminal and do `cemu` with out the `./`
+create new emulator open new terminal and do `cemu` with out the `./`
 and to run the emulator do `rcemu`.
