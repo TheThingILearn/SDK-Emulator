@@ -79,7 +79,7 @@ source .bashrc
 2. in the bin folder put the script folder (SDK-Emulator).
 3. now open your .bashrc file and add thet.
 ```
-PATH="$HOME/bin/SDK-Emulator:$PATH"
+PATH="$PATH:$HOME/bin/SDK-Emulator"
 ```
 4. and last do `source .bashrc` in terminal.
 
