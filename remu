@@ -1,7 +1,8 @@
 #!/bin/bash
 
-ORIGINAL_DIR="$(pwd)"
-options_file="$ORIGINAL_DIR/emulators_name.txt"
+SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+
+options_file="$SCRIPT_DIR/emulators_name.txt"
 
 read_options_from_file() {
     mapfile -t options < "$options_file"
