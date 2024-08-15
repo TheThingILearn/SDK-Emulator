@@ -178,6 +178,7 @@ case $defult in
 esac
 
 cd $script_dir
+
 case $defult in
 [Dd] ) echo "$name-Defult" >> emulators_name.txt;;
 
