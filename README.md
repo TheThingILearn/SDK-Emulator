@@ -95,3 +95,5 @@ to accept android licenses do the code below and accept it.
 ```
 flutter doctor --android-licenses
 ```
+## NOTE
+the script will automatically agree to any policy in the way
