@@ -95,5 +95,16 @@ to accept android licenses do the code below and accept it.
 ```
 flutter doctor --android-licenses
 ```
+### Hot reload
+```
+#!/bin/bash
+
+# Directory or file to watch for changes
+WATCH_DIR=$(pwd)  # Change this to the directory or file you want to monitor
+
+# Find all files in the directory and monitor them with entr
+find "$WATCH_DIR" -type f | entr -r bash -c 'kill -SIGUSR1 $(pgrep -f "[f]lutter_tool.*run")'
+```
+
 ## NOTE
 the script will automatically agree to any policy in the way
