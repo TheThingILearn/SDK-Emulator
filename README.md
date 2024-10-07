@@ -10,7 +10,7 @@ make that procces alot easier.
 - chose if you want play store installed
 
 and of course i will try to add more features with out making it to overwhelmed
-so let me now by ⭐⭐star the project⭐⭐
+so let me know by ⭐⭐star the project⭐⭐
 
 and if you have somthing you want to add open issues request and i will try to add.
   
