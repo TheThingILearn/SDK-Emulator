@@ -22,11 +22,11 @@ and if you have somthing you want to add open issues request and i will try to a
 and scroll down till you get to the section called "Command line tools only".
 download the sdk tools packeage for linux. 🚫🚫don't unzip the command line tools the script will do that🚫🚫
 
-- openjdk-17 - search for it in your destro package manager and download it.
+- openjdk-17 and openjdk-17-devel - search for it in your destro package manager and download it.
 
   opensuse
   ```
-  sudo zypper install java-17-openjdk
+  sudo zypper install java-17-openjdk java-17-openjdk-devel 
   ```
   Debian/ubuntu (not tested)
   ```
